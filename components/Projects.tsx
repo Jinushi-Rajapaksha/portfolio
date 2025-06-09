@@ -19,10 +19,10 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Planetarium Ticketing System",
     description:
-      "Full-stack web application built with React, Node.js, and PostgreSQL. Features user authentication, payment processing, and admin dashboard.",
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "GalaxyGate is a comprehensive planetarium ticketing system designed to manage ticket distribution and customer interactions seamlessly. In this system vendors are able to release tickets to the pool and upon availablity customers can buy tickets.Created by using react.ts/node.js/mongoDB",
+    technologies: ["React", "Node.js", "mongoDB"],
     github: "https://github.com",
     demo: "https://demo.com",
     icon: <Globe className="w-6 h-6" />,
@@ -61,7 +61,7 @@ export function Projects() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tighter mb-8 text-center">
-            My Projects
+            Featured Projects
           </h2>
           <p className=" max-w-2xl mx-auto text-muted-foreground text-lg font-normal">
             Here are some of the projects I've worked on. Each project

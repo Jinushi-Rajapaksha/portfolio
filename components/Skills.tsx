@@ -3,17 +3,31 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Globe, Server, Database, Code, Brain } from "lucide-react";
 
 const skills = [
+  { name: "Html", category: "Frontend" },
+  { name: "CSS", category: "Frontend" },
+    { name: "Tailwind CSS", category: "Frontend" },
+  { name: "MUI", category: "Frontend" },
+
   { name: "JavaScript", category: "Frontend" },
   { name: "TypeScript", category: "Frontend" },
   { name: "React", category: "Frontend" },
   { name: "Next.js", category: "Frontend" },
+    { name: ".NET", category: "Backend" },
+
   { name: "Python", category: "Backend" },
   { name: "Java", category: "Backend" },
   { name: "Node.js", category: "Backend" },
   { name: "PostgreSQL", category: "Database" },
   { name: "MongoDB", category: "Database" },
+  { name: "Oracle", category: "Database" },
+  { name: "SQL Express", category: "Database" },
+    { name: "Postman", category: "Tools" },
+
   { name: "Git", category: "Tools" },
-  { name: "Docker", category: "Tools" },
+  { name: "Figma", category: "Tools" },
+    { name: "Canva", category: "Tools" },
+    { name: "Photoshop", category: "Tools" },
+
   { name: "AWS", category: "Cloud" },
 ];
 

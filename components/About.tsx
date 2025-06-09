@@ -17,18 +17,17 @@ export function About() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed md:text-lg font-normal">
               <p>
-                I'm a computer science student and trainee software engineer
-                with a passion for building innovative solutions that solve
-                real-world problems. My journey in technology began when I was
-                introduced to programming in high school, and I've been hooked
-                ever since.
+                I'm a passionate software engineering intern with a strong
+                foundation in computer science and a drive for solving
+                real-world challenges through technology.
               </p>
               <p>
-                Currently, I'm deepening my understanding of software
-                engineering principles and practices while working on exciting
-                projects that challenge me to grow as a developer. I'm
-                particularly interested in web development, AI, mobile apps, and
-                cutting-edge technologies.
+                Currently, I’m honing my skills in software design,
+                architecture, and full-stack development by contributing to
+                dynamic projects that push me to grow both technically and
+                creatively. I'm especially enthusiastic about modern web
+                technologies, system design, and building scalable, user-focused
+                solutions.
               </p>
             </div>
 
@@ -37,25 +36,25 @@ export function About() {
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
                 <span className="text-muted-foreground text-base font-medium tracking-tight">
-                  Problem Solver
+                  Team Collaborator
+                </span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <span className="text-muted-foreground text-base font-medium tracking-tight">
+                  Attention to Detail
+                </span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <span className="text-muted-foreground text-base font-medium tracking-tight">
+                  Adaptable
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
                 <span className="text-muted-foreground text-base font-medium tracking-tight">
                   Quick Learner
-                </span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-muted-foreground text-base font-medium tracking-tight">
-                  Team Player
-                </span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-muted-foreground text-base font-medium tracking-tight">
-                  Detail-Oriented
                 </span>
               </div>{" "}
             </div>
@@ -72,8 +71,7 @@ export function About() {
                 Coding
               </h4>
               <p className="text-muted-foreground text-base leading-relaxed">
-                I love solving complex problems and turning ideas into working
-                software.
+                I enjoy writing clean and efficient code.
               </p>
             </div>
 
@@ -86,8 +84,7 @@ export function About() {
                 Learning
               </h4>
               <p className="text-muted-foreground text-base leading-relaxed">
-                Constantly exploring new technologies and expanding my
-                knowledge.
+                Always curious and open to learning new things.
               </p>
             </div>
 
@@ -100,7 +97,7 @@ export function About() {
                 Coffee
               </h4>
               <p className="text-muted-foreground text-base leading-relaxed">
-                Fueling late-night coding sessions and creative problem-solving.
+                Keeps me focused during long coding sessions.
               </p>
             </div>
 
@@ -113,7 +110,7 @@ export function About() {
                 Passion
               </h4>
               <p className="text-muted-foreground text-base leading-relaxed">
-                Dedicated to crafting elegant solutions that make an impact.
+                I love building things that make a difference.
               </p>
             </div>
           </div>
