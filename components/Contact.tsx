@@ -13,19 +13,19 @@ export function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild>
-            <Link href="mailto:alex.chen@email.com">
+            <Link href="mailto:rwjinushi@gmail.com">
               <Mail className="mr-2 h-4 w-4" />
-              alex.chen@email.com
+              rwjinushi@gmail.com
             </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="https://linkedin.com/in/alexchen" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/jinushi-rajapaksha/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="mr-2 h-4 w-4" />
               LinkedIn
             </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="https://github.com/alexchen" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/Jinushi-Rajapaksha" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </Link>

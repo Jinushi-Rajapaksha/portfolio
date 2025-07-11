@@ -1,4 +1,4 @@
-"use client";
+
 
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
@@ -8,12 +8,12 @@ import { Projects } from "@/components/Projects";
 import { Education } from "@/components/Education";
 import { Contact } from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { Certifications } from "@/components/Certifications";
+import Certifications from "@/components/Certifications";
 
 export default function Portfolio() {
   return (
     <div className="bg-background">
-      <Navigation />
+      {/* <Navigation /> */}
 
       <main>
         <section className=" flex items-center justify-center">

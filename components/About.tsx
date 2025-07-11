@@ -63,9 +63,9 @@ export function About() {
           {/* Right Column - Cards Grid */}
           <div className="grid grid-cols-2 gap-4">
             {/* Coding Card */}
-            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105">
+            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:bg-muted/50 hover:border-primary/20">
               <div className="mb-4">
-                <Code className="w-8 h-8 text-primary" />
+                <Code className="w-8 h-8 text-primary transition-transform duration-300 ease-in-out hover:scale-110" />
               </div>
               <h4 className="text-2xl font-semibold tracking-tight mb-3">
                 Coding
@@ -76,9 +76,9 @@ export function About() {
             </div>
 
             {/* Learning Card */}
-            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105">
+            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:bg-muted/50 hover:border-primary/20">
               <div className="mb-4">
-                <BookOpen className="w-8 h-8 text-primary" />
+                <BookOpen className="w-8 h-8 text-primary transition-transform duration-300 ease-in-out hover:scale-110" />
               </div>
               <h4 className="text-2xl font-semibold tracking-tight mb-3">
                 Learning
@@ -89,9 +89,9 @@ export function About() {
             </div>
 
             {/* Coffee Card */}
-            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105">
+            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:bg-muted/50 hover:border-primary/20">
               <div className="mb-4">
-                <Coffee className="w-8 h-8 text-primary" />
+                <Coffee className="w-8 h-8 text-primary transition-transform duration-300 ease-in-out hover:scale-110" />
               </div>
               <h4 className="text-2xl font-semibold tracking-tight mb-3">
                 Coffee
@@ -102,9 +102,9 @@ export function About() {
             </div>
 
             {/* Passion Card */}
-            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105">
+            <div className="bg-card border p-6 rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:bg-muted/50 hover:border-primary/20">
               <div className="mb-4">
-                <Heart className="w-8 h-8 text-primary" />
+                <Heart className="w-8 h-8 text-primary transition-transform duration-300 ease-in-out hover:scale-110" />
               </div>
               <h4 className="text-2xl font-semibold tracking-tight mb-3">
                 Passion
