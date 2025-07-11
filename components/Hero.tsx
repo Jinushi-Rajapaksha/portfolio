@@ -31,7 +31,7 @@ export function Hero() {
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-left text-center">
-                Hi <span className="wave">👋</span>, I'm{" "}
+                Hi <span className="wave">👋</span>, I&apos;m{" "}
                 <span className="text-primary block">Jinushi Rajapaksha</span>
               </h1>
               <h2 className="text-xl md:text-3xl text-gray-600 dark:text-gray-200 lg:text-left text-center">

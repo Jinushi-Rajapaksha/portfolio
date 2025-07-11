@@ -64,7 +64,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className=" max-w-2xl mx-auto text-muted-foreground text-lg font-normal">
-            Here are some of the projects I've worked on. Each project
+            Here are some of the projects I&apos;ve worked on. Each project
             represents my skills and dedication to creating high-quality
             applications.
           </p>

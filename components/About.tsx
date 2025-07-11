@@ -17,15 +17,15 @@ export function About() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed md:text-lg font-normal">
               <p>
-                I'm a passionate software engineering intern with a strong
+                I&apos;m a passionate software engineering intern with a strong
                 foundation in computer science and a drive for solving
                 real-world challenges through technology.
               </p>
               <p>
-                Currently, I’m honing my skills in software design,
+                Currently, I&apos;m honing my skills in software design,
                 architecture, and full-stack development by contributing to
                 dynamic projects that push me to grow both technically and
-                creatively. I'm especially enthusiastic about modern web
+                creatively. I&apos;m especially enthusiastic about modern web
                 technologies, system design, and building scalable, user-focused
                 solutions.
               </p>

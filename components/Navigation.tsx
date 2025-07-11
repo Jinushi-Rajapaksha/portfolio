@@ -2,7 +2,7 @@
 import { Code, Moon, Sun, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useTheme } from "@/lib/theme-context";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 export function Navigation() {
   const { theme, toggleTheme } = useTheme();
@@ -10,7 +10,7 @@ export function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
 
-  const navigationItems = [
+  const navigationItems = useMemo(() => [
     { href: "/", label: "Home", id: "home" },
     { href: "#about", label: "About", id: "about" },
     { href: "#skills", label: "Skills", id: "skills" },
@@ -18,7 +18,7 @@ export function Navigation() {
     { href: "#education", label: "Education", id: "education" },
     { href: "#certifications", label: "Certifications", id: "certifications" },
     { href: "#contact", label: "Contact", id: "contact" },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +56,7 @@ export function Navigation() {
     handleScroll(); // Call once to set initial state
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [navigationItems]);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);

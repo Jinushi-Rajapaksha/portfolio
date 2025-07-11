@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Globe, Server, Database, Code, Brain } from "lucide-react";
+import { Globe, Server, Database, Code } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const skills = [

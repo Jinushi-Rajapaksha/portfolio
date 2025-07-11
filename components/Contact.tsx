@@ -8,7 +8,7 @@ export function Contact() {
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl font-bold tracking-tighter mb-8">Get In Touch</h2>
         <p className="text-lg text-muted-foreground mb-8">
-          I'm always open to discussing new opportunities, interesting projects, or just having a chat about
+          I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about
           technology. Feel free to reach out!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
